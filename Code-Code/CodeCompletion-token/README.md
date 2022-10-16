@@ -2,13 +2,11 @@
 
 **Update 2021.07.30:** We update the code completion dataset with literals normalized to avoid sensitive information. 
 
-Here is the introduction and pipeline for token level code completion task.
-
 ## Task Definition
 
 Predict next code token given context of previous tokens. Models are evaluated by token level accuracy.
 
-Code completion is a one of the most widely used features in software development through IDEs. An effective code completion tool could improve software developers' productivity. We provide code completion evaluation tasks in two granularities -- token level and line level. Here we introduce token level code completion. Token level task is analogous to language modeling. Models should have be able to predict the next token in arbitary types.
+Token level task is analogous to language modeling. Models should have be able to predict the next token in arbitary types.
 
 
 ## Dataset
